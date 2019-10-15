@@ -20,3 +20,14 @@ in inserted my code and was able to render a little more with the templates.
 
 To run this, first use $ export FLASK_APP=microblog.py 
 then a simple $ flas run should get you off and running.
+
+-------------------------------------------
+Part 3 
+in part 3 we will start working with web forms.To handle the web forms in this application I'm going to use the Flask-WTF extension, which is a thin wrapper around the WTForms package that nicely integrates it with Flask. This is the first Flask extension that I'm presenting to you, but it is not going to be the last. Extensions are a very important part of the Flask ecosystem, as they provide solutions to problems that Flask is intentionally not opinionated about.
+
+Flask extensions are regular Python packages that are installed with pip. You can go ahead and install Flask-WTF in your virtual environment:
+
+(venv) $ pip install flask-wtf
+
+I then created a login form and rerouted everything.
+to run this code simple use $flask run
