@@ -57,4 +57,13 @@ The installation process for Flask-Migrate is similar to other extensions you ha
 
 then you can run this code by simply using $flask run
 
+------------------
+Part 5
+In this chapter I'm going to introduce you to a very popular Flask extension called Flask-Login. This extension manages the user logged-in state, so that for example users can log in to the application and then navigate to different pages while the application "remembers" that the user is logged in. It also provides the "remember me" functionality that allows users to remain logged in even after closing the browser window. To be ready for this chapter, you can start by installing Flask-Login in your virtual environment:
 
+(venv) $ pip install flask-login
+
+we have now set up a registration, logout, login functionality.
+
+to run this application simply use $flask run
+jump in register login and log out!
